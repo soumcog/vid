@@ -1,0 +1,4 @@
+EnpQxuf1y5Moo5IAvM8bD036Fpvvj80dWHjkAqjSyVe8542sZfW4JQQJ99CEACAAAAA6DxLKAAASAZDO3Kp
+
+https://GenAIGarage@dev.azure.com/GenAIGarage/Garage/_git/VZ_GARAGE_OPS_EXCELENCE_POD
+
