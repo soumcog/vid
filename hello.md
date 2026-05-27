@@ -16,10 +16,11 @@ Rename-Item "C:\nginx-1.26.3" "C:\nginx"
 ---------------
 
 
-# Full standalone installer (larger file but more reliable on corporate networks)
-Invoke-WebRequest -Uri "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi" -OutFile "$env:USERPROFILE\Downloads\chrome.msi"
+# Download
+Invoke-WebRequest -Uri "https://dl.google.com/chrome/install/latest/chrome_installer.exe" -OutFile "$env:USERPROFILE\Downloads\chrome_installer.exe"
 
 # Install silently
-Start-Process msiexec -ArgumentList "/i $env:USERPROFILE\Downloads\chrome.msi /quiet /norestart" -Wait
+Start-Process -FilePath "$env:USERPROFILE\Downloads\chrome_installer.exe" -ArgumentList "/silent /install" -Wait
+
 
 
